@@ -2,7 +2,7 @@ import sys
 from flask import Flask, request
 app = Flask(__name__)
 
-seed_value = "0"
+seed_value = 0
 
 @app.route('/', methods=['POST','GET'])
 def home():
