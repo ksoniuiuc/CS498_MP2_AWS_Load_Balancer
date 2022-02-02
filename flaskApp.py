@@ -12,9 +12,9 @@ def home():
         print(f'Input JSON: {input}')
         seed_value = input.get('num')
         print(f'Seed Value: {seed_value}')
-        return seed_value
+        return str(seed_value)
     
-    return seed_value
+    return str(seed_value)
 
 if __name__ == '__main__':
     app.run(host = '0.0.0.0')
